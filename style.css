@@ -35,3 +35,9 @@
 .wrap-reverse {
     flex-wrap: wrap-reverse;
 }
+
+/* Flex-Flow  -- {flex-direction + flex-wrap} */
+
+.flex-flow {
+    flex-flow: column wrap;
+}
