@@ -1,15 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;;
-}
-
 /* Flex Box*/
 
 .flex {
     display: flex; /* or inline-flex */
 }
 
-// Flex-Direction
+ /* Flex-Direction */
 
 .row {
     flex-direction: row;
@@ -27,13 +22,16 @@
     flex-direction: column-reverse;
 }
 
+/* Flex-Wrap */
 
-/* General Styling*/
-
-.title {
-    padding: 0.5rem;
+.nowrap {
+    flex-wrap: nowrap;
 }
-.card {
-    border: 2px solid red;
-    padding: 0.5rem;
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
 }
