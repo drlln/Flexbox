@@ -68,7 +68,7 @@
     justify-content: space-evenly;
 }
 
-/* align-itens */
+/* align-items */
 
 .stretch {
     align-items: stretch;
@@ -89,3 +89,31 @@
 .ai-baseline {
     align-items: baseline;
 }
+
+/* align-content */
+
+.ac-flex-start {
+    align-content: flex-start;
+}
+
+.ac-flex-end {
+    align-content: flex-end;
+}
+
+.ac-center {
+    align-content: center;
+}
+
+.ac-stretch {
+    align-content: stretch;
+}
+
+.ac-space-between {
+    align-content: space-between;
+}
+
+.ac-space-around {
+    align-content: space-around;
+}
+
+/* order */
